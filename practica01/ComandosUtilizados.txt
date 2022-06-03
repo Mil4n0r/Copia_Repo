@@ -20,3 +20,4 @@ code ComandosUtilizados.txt
 git add .
 git commit -m "Terminado ejercicio"
 git push https://github.com/Mil4n0r/Copia_Repo.git practica01
+git push https://github.com/Mil4n0r/Copia_Repo.git practica1_MORENO_CARMONA_ENRIQUE
