@@ -1,0 +1,22 @@
+git branch -a
+git checkout practica01
+cd practica01
+code fichero01.txt
+code fichero02.txt
+code fichero03.txt
+git status
+git checkout -b practica1_MORENO_CARMONA_ENRIQUE
+touch practica1_MORENO_CARMONA_ENRIQUE.txt
+code practica1_MORENO_CARMONA_ENRIQUE.txt
+git add .
+git commit -m "Realizado apartado 7"
+code practica1_MORENO_CARMONA_ENRIQUE.txt
+git add practica1_MORENO_CARMONA_ENRIQUE.txt
+git commit -m "Añadido apartado 8"
+git checkout practica01
+git merge practica1_MORENO_CARMONA_ENRIQUE
+touch ComandosUtilizados.txt
+code ComandosUtilizados.txt
+git add .
+git commit -m "Terminado ejercicio"
+git push https://github.com/Mil4n0r/Copia_Repo.git practica01
